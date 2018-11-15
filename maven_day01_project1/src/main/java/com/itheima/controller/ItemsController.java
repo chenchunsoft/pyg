@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @date:2018/11/14
  * @description:
  */
-@Controller
+@Controller  
 @RequestMapping("/items")
 public class ItemsController {
     @Autowired
