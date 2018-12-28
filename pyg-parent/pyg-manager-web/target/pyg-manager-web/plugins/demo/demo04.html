@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>angularJs_demo04_controller</title>
+    <script src="plugins/angularjs/angular.min.js"></script>
+    <script>
+
+        //建立模块
+        var app=angular.module("myApp",[])
+        app.controller("myController",function ($scope) {
+            $scope.add=function () {
+
+                return parseInt($scope.x)+parseInt($scope.y);
+            }
+        });
+    </script>
+</head>
+<body ng-app="myApp" ng-controller="myController" ng-init="x='0';y='0'">
+
+第一个数:<input ng-model="x"> <br/>
+第二个数:<input ng-model="y">
+
+<table border="1">
+    <tr>
+        <td>
+            <a style="background-color: #00a65a"> {{add()}} </a>
+        </td>
+    </tr>
+</table>
+<!--
+表达式的作用，其实就是为了在视图上获取数据
+-->
+<!--{{username}}
+&lt;!&ndash; ng-model 就是绑定输入的作用 &ndash;&gt;
+<input ng-model="username"><br/>-->
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>angularJs_demo05_事件指令</title>
+    <script src="plugins/angularjs/angular.min.js"></script>
+    <script>
+
+        //建立模块
+        var app=angular.module("myApp",[])
+        app.controller("myController",function ($scope) {
+            $scope.add=function () {
+
+               $scope.z=parseInt($scope.x)+parseInt($scope.y);
+            }
+        });
+    </script>
+</head>
+<body ng-app="myApp" ng-controller="myController" ng-init="x='0';y='0'">
+
+第一个数:<input ng-model="x"> <br/>
+第二个数:<input ng-model="y">
+
+<!--
+表达式的作用，其实就是为了在视图上获取数据
+-->
+<!--{{username}}
+&lt;!&ndash; ng-model 就是绑定输入的作用 &ndash;&gt;
+<input ng-model="username"><br/>-->
+<button ng-click="add()">运算</button>
+运算结果是{{z}}
+</body>
+</html>

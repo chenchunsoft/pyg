@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:dubbo="http://code.alibabatech.com/schema/dubbo" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+http://code.alibabatech.com/schema/dubbo ">
+
+	<!--下属dubbo配置注释掉, 用不到了解除页面生成服务于dubbo 的依赖关系.-->
+	<!--一个端口可以提供多个服务,服务port不同即可.-->
+	<!--<dubbo:protocol name="dubbo" port="20885"></dubbo:protocol>-->
+	<!--<dubbo:application name="pyg-page-service"/>-->
+	<!--<dubbo:registry address="zookeeper://192.168.25.168:2181"/>-->
+	<!--<dubbo:annotation package="com.pyg.page.service.impl"/>-->
+	<!--拿到freeMakerConfig-->
+
+	<!--解除了依赖关系之后, 包扫描也没了,需要重新扫描-->
+
+	<context:component-scan base-package="com.pyg.page.service.impl"/>
+
+	<bean id="freemarkerConfig"
+		  class="org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer">
+		<property name="templateLoaderPath" value="/WEB-INF/ftl/" />
+		<property name="defaultEncoding" value="UTF-8" />
+	</bean>
+	<!--配置了resolver之后依然乱码.注释掉 2018-12-15 11:57:08-->
+	<!--<bean id="freemarkerResolver" class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
+		&lt;!&ndash; 设置页面中文乱码问题 &ndash;&gt;
+		<property name="contentType" value="text/html;charset=UTF-8"/>
+
+	</bean>-->
+</beans>

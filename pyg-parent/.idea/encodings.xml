@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../ali_send_message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ali_send_message/java/api_demo/alicom-dysms-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ali_send_message/java/sendmessage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/itcast_sms_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-content-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-content-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-manager-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-page-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-page-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-portal-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-search-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-search-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-sellergoods-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-sellergoods-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-shop-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg-user-web" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

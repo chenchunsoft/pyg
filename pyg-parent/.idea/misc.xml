@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/casclient_demo1" />
+    <file type="web" url="file://$PROJECT_DIR$/casclient_demo2" />
+    <file type="web" url="file://$PROJECT_DIR$/casclient_demo3" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-cart-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-cart-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-content-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-manager-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-order-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-page-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-page-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-pay-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-portal-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-search-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-search-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-seckill-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-sekill-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-sellergoods-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-shop-web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-user-service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg-user-web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../品优购资源V1.3/配套软件/配套软件/阿里大于/java/api_sdk/aliyun-java-sdk-core/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../品优购资源V1.3/配套软件/配套软件/阿里大于/java/api_sdk/aliyun-java-sdk-dysmsapi/pom.xml" />
+        <option value="$PROJECT_DIR$/../../../../品优购资源V1.3/配套软件/配套软件/阿里大于/java/api_demo/alicom-dysms-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../ali_send_message/pom.xml" />
+        <option value="$PROJECT_DIR$/casclient_demo2/pom.xml" />
+        <option value="$PROJECT_DIR$/casclient_demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/casclient_demo3/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/pyg-cart-web/pom.xml" />
+        <option value="$PROJECT_DIR$/springjms_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springjsm_producer/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" project-jdk-name="9.0" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>

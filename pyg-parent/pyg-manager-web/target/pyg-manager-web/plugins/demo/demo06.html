@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>angularJs_demo05_事件指令</title>
+    <script src="plugins/angularjs/angular.min.js"></script>
+    <script>
+
+        //建立模块
+        var app=angular.module("myApp",[])
+        app.controller("myController",function ($scope) {
+          $scope.list=[1,2,3,4];
+        });
+    </script>
+</head>
+<body ng-app="myApp" ng-controller="myController" ng-init="x='0';y='0'">
+<table>
+
+    <tr ng-repeat="x in list">
+        <td>
+            {{x}}
+        </td>
+    </tr>
+</table>
+</body>
+</html>
